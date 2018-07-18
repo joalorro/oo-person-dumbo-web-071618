@@ -8,11 +8,11 @@ class Person
   end
   
   def clean(@hygiene)
-    
+    @hygiene > 7 ? true : false
   end
   
   def happy(@happiness)
-  
+      @happiness > 7 ? true : false
   end
 
 end
