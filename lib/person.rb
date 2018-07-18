@@ -1,7 +1,7 @@
 class Person 
   
   def initialize(name) 
-    @name = name
+    :@name = name
     @bank_account = 25.00
     @happiness = 8
     @hygiene = 8
