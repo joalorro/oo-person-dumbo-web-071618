@@ -6,5 +6,13 @@ class Person
     @happiness = 8
     @hygiene = 8
   end
+  
+  def clean()
+  
+  end
+  
+  def happy()
+  
+  end
 
 end
