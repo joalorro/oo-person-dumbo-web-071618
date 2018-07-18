@@ -15,7 +15,8 @@ class Person
       @happiness > 7 ? true : false
   end
   
-  def take_bath()
+  def take_bath
+    
     
   end
 
