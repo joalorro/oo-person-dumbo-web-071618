@@ -32,11 +32,5 @@ class Person
     mod_pts("Increase", 2, @happiness)
     mod_pts("Decrease", 3, @hygiene)
   end
-    
-  
-  
-    
-    
-  end
 
 end
