@@ -24,6 +24,11 @@ class Person
   end
   
   def take_bath
+    mod_pts("Increase", 4, @hygiene)
+    puts 
+  end
+  
+  
     
     
   end
