@@ -5,7 +5,6 @@ class Person
     @bank = 25
     @happiness = 8
     @hygiene = 8
-    
   end
 
 end
