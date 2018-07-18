@@ -25,8 +25,14 @@ class Person
   
   def take_bath
     mod_pts("Increase", 4, @hygiene)
-    puts 
+    return "♪ Rub-a-dub just relaxing in the tub ♫"
   end
+  
+  def work_out
+    mod_pts("Increase", 2, @happiness)
+    mod_pts("Decrease", 3, @hygiene)
+  end
+    
   
   
     
