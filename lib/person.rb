@@ -7,11 +7,11 @@ class Person
     @hygiene = 8
   end
   
-  def clean()
+  def clean(@hygiene)
   
   end
   
-  def happy()
+  def happy(@happiness)
   
   end
 
