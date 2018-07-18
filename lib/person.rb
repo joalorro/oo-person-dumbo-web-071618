@@ -15,7 +15,13 @@ class Person
     @happiness > 7 ? true : false
   end
   
-  def  
+  def mod_pts(action, num, stats)
+    if action == "Increase"
+      stats += num
+    else
+      stats -= num
+    end
+  end
   
   def take_bath
     
