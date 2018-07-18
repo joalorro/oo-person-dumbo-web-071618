@@ -8,7 +8,7 @@ class Person
   end
   
   def clean(@hygiene)
-  
+    
   end
   
   def happy(@happiness)
