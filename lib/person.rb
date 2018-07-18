@@ -17,9 +17,9 @@ class Person
   
   def mod_pts(action, num, stats)
     if action == "Increase"
-      stats += num
+      stats + num <= 10 ? stats += num : stats = 10
     else
-      stats -= num
+      stats - num >= 0 ? stats -= num : stats = 0
     end
   end
   
