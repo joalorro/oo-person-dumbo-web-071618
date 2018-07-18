@@ -7,11 +7,11 @@ class Person
     @hygiene = 8
   end
   
-  def clean(hygiene)
+  def clean
     @hygiene > 7 ? true : false
   end
   
-  def happy(happiness)
+  def happy
     @happiness > 7 ? true : false
   end
   
